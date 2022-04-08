@@ -3,7 +3,7 @@ LinkParser
 
 ![Points](../../blob/badges/points.svg)
 
-For this homework, you will get all of the links from a snippet of well-formed (validating) HTML. Specifically, your code must return a list of HTTP or HTTPS URLs (or links) from the HTML `a` anchor tag `href` attribute. This should not include links in the `href` attribute of the `link` tag!
+For this homework, you will get all of the links from a snippet of well-formed (validating) HTML. Specifically, your code must return a list of HTTP or HTTPS URLs (or links) from the HTML `a` anchor tag `href` attribute. Your code can assume the `href` attribute value will always be included within opening `"` and closing `"` quotation marks. However, your code should *not* include links in the `href` attribute of the `link` or other tags. 
 
 A method is provided that will make sure URLs are in a semi-consistent properly-encoded form. Your code must figure out how to deal with relative vs absolute links, however. See below for more.
 
